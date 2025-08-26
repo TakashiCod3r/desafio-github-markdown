@@ -6,7 +6,7 @@ Desafio Github Dio -  etapa 1
 # 💻 Formulário de Login Moderno
 
 Projeto desenvolvido como parte do **Desafio DIO sobre GitHub e Markdown**.  
-Este repositório apresenta uma página de **formulário de login simples, responsiva e com design moderno**, ideal para treinar conceitos de HTML, CSS e boas práticas de organização no GitHub.
+Este repositório apresenta uma página de **formulário de login simples com design moderno**, ideal para treinar conceitos de HTML, CSS, JS  e boas práticas de organização no GitHub.
 
 ---
 
@@ -30,7 +30,6 @@ Este repositório apresenta uma página de **formulário de login simples, respo
 ## 🎯 Funcionalidades
 
 - Interface limpa e intuitiva
-- Design responsivo para diferentes dispositivos
 - Campos de login com validação básica
 - Estilo moderno com foco em usabilidade
 
