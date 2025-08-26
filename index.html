@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="form-conteiner">
+        <div class="form-col">
+            <div class="btn-box">
+                <button class="btn btn-1" id="login"> Entrar</button>
+                <button class="btn btn-2" id="register"> Criar Conta</button>
+            </div>
+
+            <!-- Login Form Container-->
+            <form class="form-box  login-form">
+                <div class="form-title">
+                    <span>Bem Vindo!</span>
+                </div>
+                <div class="form-inptus">
+                    <div class="input-box">
+                        <input type="text" class="inputs input-field" placeholder="Username" required>
+                        <ion-icon name="person-outline" class="icon"></ion-icon>
+                    </div>
+                      <div class="input-box">
+                        <input type="password" class="inputs input-field" placeholder="Password" required>
+                       <ion-icon name="lock-closed-outline" class="icon"></ion-icon>
+                    </div>
+                    <div class="forgot-pass">
+                        <a href="#">Esqueceu a Senha?</a>
+                    </div>
+                        <div class="input-box">
+                            <button class="inputs submit-btn">
+                                <span>Sign In</span>
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </button>
+                        </div>
+                </div>
+                <div class="social-login">
+                    <div class="social-login-box">
+                     <ion-icon name="logo-google" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                          <ion-icon name="logo-facebook" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                        <ion-icon name="logo-twitter" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                         <ion-icon name="logo-github" class="social-login-icon"></ion-icon>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 
@@ -18,5 +67,12 @@
 
 
     <script src="./script.js"></script>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
