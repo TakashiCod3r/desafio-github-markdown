@@ -3,9 +3,6 @@ Desafio Github Dio -  etapa 1
 
 
 
-
-
-
 # 💻 Formulário de Login Moderno
 
 Projeto desenvolvido como parte do **Desafio DIO sobre GitHub e Markdown**.  
