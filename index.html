@@ -27,15 +27,15 @@
                         <ion-icon name="person-outline" class="icon"></ion-icon>
                     </div>
                       <div class="input-box">
-                        <input type="password" class="inputs input-field" placeholder="Password" required>
-                       <ion-icon name="lock-closed-outline" class="icon"></ion-icon>
+                        <input type="password" oninput="changeIcon(this.value)"  id="logPassword" class="inputs input-field" placeholder="Password" required>
+                       <ion-icon name="lock-closed-outline" class="icon" id="log-pass-icon" onclick="myLogPassword()"></ion-icon>
                     </div>
                     <div class="forgot-pass">
                         <a href="#">Esqueceu a Senha?</a>
                     </div>
                         <div class="input-box">
                             <button class="inputs submit-btn">
-                                <span>Sign In</span>
+                                <span>Entrar</span>
                                 <ion-icon name="arrow-forward-outline"></ion-icon>
                             </button>
                         </div>
@@ -55,6 +55,56 @@
                     </div>
                 </div>
             </form>
+
+
+            <!-- Registro  Form Container-->
+
+               <form class="form-box  register-form">
+                <div class="form-title">
+                    <span>Casdastre-se</span>
+                </div>
+                <div class="form-inptus">
+                    <div class="input-box">
+                        <input type="text" class="inputs input-field" placeholder="Email" required>
+                       <ion-icon name="mail-outline" class="icon"></ion-icon>
+                    </div>
+                     <div class="input-box">
+                        <input type="text" class="inputs input-field" placeholder="Username" required>
+                        <ion-icon name="person-outline" class="icon"></ion-icon>
+                    </div>
+                      <div class="input-box">
+                        <input type="password" oninput="changeIcon(this.value)" id="regPassword" class="inputs input-field" placeholder="Password" required>
+                       <ion-icon name="lock-closed-outline" class="icon" id="reg-pass-icon" onclick="myRegPassword()"></ion-icon>
+                    </div>
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me-check">
+                        <label for="remember-me-check"> Lembrar de mim</label>
+                    </div>
+                        <div class="input-box">
+                            <button class="inputs submit-btn">
+                                <span>Cadastre</span>
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </button>
+                        </div>
+                </div>
+                <div class="social-login">
+                    <div class="social-login-box">
+                     <ion-icon name="logo-google" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                          <ion-icon name="logo-facebook" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                        <ion-icon name="logo-twitter" class="social-login-icon"></ion-icon>
+                    </div>
+                    <div class="social-login-box">
+                         <ion-icon name="logo-github" class="social-login-icon"></ion-icon>
+                    </div>
+                </div>
+            </form>
+
+
+
         </div>
     </div>
 
@@ -66,7 +116,7 @@
 
 
 
-    <script src="./script.js"></script>
+   <script src="./script.js"></script>
 
 
 

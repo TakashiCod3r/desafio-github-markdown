@@ -22,6 +22,7 @@ align-items: center;
 justify-content: center;
 min-height: 100vh;
 padding:  0 20px;
+overflow: hidden;
 }
 
 .form-conteiner {
@@ -36,7 +37,7 @@ padding:  0 20px;
 .form-col {
     position: relative;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .btn-box {
@@ -90,6 +91,15 @@ transition: .2s;
     left: 50%;
 
 }
+
+.register-form {
+    left: -50%;
+}
+
+.register-form, .form-title {
+    margin-block: 40px  20px ;
+}
+
 
 .form-inptus {
     width: 100%;
@@ -149,6 +159,12 @@ transition: .2s;
 
 .forgot-pass a:hover {
     text-decoration: underline;
+}
+
+.remember-me label {
+    color: #fff;
+    font-size: 14px;
+
 }
 
 .submit-btn {
