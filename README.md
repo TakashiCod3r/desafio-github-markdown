@@ -22,7 +22,7 @@ Este repositório apresenta uma página de **formulário de login simples, respo
 
 ## 📸 Preview
 
-![Preview do Formulário](./imagens/TELA%20LOGIN.png)
+![Preview do Formulário](./imagens/w1.png)
 
 ---
 
