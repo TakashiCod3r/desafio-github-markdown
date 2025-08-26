@@ -22,7 +22,7 @@ Este repositório apresenta uma página de **formulário de login simples com de
 
 ## 📸 Preview
 
-![Preview do Formulário](./imagens/Screenshot_1.png)
+![Preview do Formulário](./imagens/Screenshot.png)
 
 
 ---
